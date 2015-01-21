@@ -1,0 +1,9 @@
+read n;
+xa:=1;
+xb:=1;
+repeat
+  xb:=xb*xa;
+  xa:=xa+1;
+  n:=n-1
+until n=0;
+write xb;
