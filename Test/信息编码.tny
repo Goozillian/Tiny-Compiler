@@ -1,0 +1,65 @@
+read xa;
+read xb;
+read xc;
+read xd;
+if xa=0 then
+  if xb=0 then
+    if xc=0 then
+      if xd=0 then
+        write 0
+      else
+        write 1
+      end
+    else
+      if xd=0 then
+        write 2
+      else
+        write 3
+      end
+    end
+  else
+    if xc=0 then
+      if xd=0 then
+        write 4
+      else
+        write 5
+      end
+    else
+      if xd=0 then
+        write 6
+      else
+        write 7
+      end
+    end
+  end
+else
+  if xb=0 then
+    if xc=0 then
+      if xd=0 then
+        write 8
+      else
+        write 9
+      end
+    else
+      if xd=0 then
+        write 10
+      else
+        write 11
+      end
+    end
+  else
+    if xc=0 then
+      if xd=0 then
+        write 12
+      else
+        write 13
+      end
+    else
+      if xd=0 then
+        write 14
+      else
+        write 15
+      end
+    end
+  end
+end;
